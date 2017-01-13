@@ -1,7 +1,11 @@
-# Linux for asus-x302ua setup instructions
+# Linux setup instructions for Asus-x302ua r4055d 
 
-Enable brightness buttons:
+_Enable_wifi_:
 
+<code>echo "options asus_nb_wmi wapf=4" | sudo tee /etc/modprobe.d/asus_nb_wmi.conf</code>
+
+
+_INCOMPLETE: enable brightness buttons : handled (icon shown) but brightness doesn't change:_ 
 * sudo gedit /etc/default/grub
 
 * Change
@@ -15,5 +19,5 @@ to
 
 
 
-Topics:
+Links:
 https://ubuntuforums.org/showthread.php?t=2181558
