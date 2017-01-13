@@ -11,3 +11,9 @@ to
     
 * sudo update-grub
 * sudo reboot
+
+
+
+
+Topics:
+https://ubuntuforums.org/showthread.php?t=2181558
