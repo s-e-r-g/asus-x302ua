@@ -8,21 +8,24 @@
 
 This part enables brightness/wireless hotkey
 
-<code>
+<pre>
 sudo mcedit /etc/default/grub
+</pre>
 
 Change
     GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 to
     GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_osi="
 
+<pre>
 // TODO: try this one
 // GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_osi= acpi_backlight=intel"
+</pre>
 
-
+<pre>
 sudo update-grub
 sudo reboot
-</code>
+</pre>
 
 and this
 
