@@ -42,5 +42,7 @@ EndSection
 
 
 Links:
- https://ubuntuforums.org/showthread.php?t=2181558
- http://askubuntu.com/questions/471847/brightness-fn-key-shortcut-doesnt-work-on-asus-laptop/841903
+
+https://ubuntuforums.org/showthread.php?t=2181558
+
+http://askubuntu.com/questions/471847/brightness-fn-key-shortcut-doesnt-work-on-asus-laptop/841903
