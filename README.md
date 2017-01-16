@@ -1,5 +1,8 @@
 # Linux setup instructions for Asus-x302ua r4055d 
 
+## HW configuration:
+
+
 * Enable_wifi:
 
 <code>sudo echo "options asus_nb_wmi wapf=4" | sudo tee /etc/modprobe.d/asus_nb_wmi.conf</code>
