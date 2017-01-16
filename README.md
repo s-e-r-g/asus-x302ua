@@ -1,6 +1,10 @@
 # Linux setup instructions for Asus-x302ua r4055d 
 
 ## HW configuration
+* CPU : i5 6200U
+* RAM : 8GB DDR3
+* GFX : Intel 
+* WIFI: Atheros ???? 
 
 ## Fixes
 * Enable_wifi:
