@@ -45,7 +45,8 @@ EndSection
 </pre>
 
 
-
+* Setting DPI
+TODO
 
 
 ##Links:
