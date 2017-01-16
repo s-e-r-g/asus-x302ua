@@ -46,7 +46,21 @@ EndSection
 
 
 * Setting DPI
-TODO
+Try this one 
+
+https://wbk.one/article/8/dpi-scaling-on-linux-mint
+
+DPI Scaling on Linux Mint
+
+I have a Surface Pro 2 which has a relatively dense, 10-inch 1080p screen. It hurts my eyes to look at individual UI elements and text without dpi scaling. On Windows, everything is scaled up by 150% by default.
+
+I wanted to use Linux Mint on VirtualBox for development but I couldn't find any articles on the internet on how to get the elements to scale up properly. After some trial-and-error, this is how I achieved 150% dpi scaling that is good enough.
+
+    Go to Preference -> General, then select User interface scaling to be Double. This doubles everything in size. This works for other high density displays like MacBook Pro retina but many things looked too big for the screen of Surface Pro 2.
+    Go to Preference -> Fonts, then set text scaling factor to 0.7. This leaves UI elements to be double the size but makes text smaller. Since the text size was doubled then multiplied by 0.7, it ends up being 140% of the original size, which is close enough to the desired level of 150%.
+    Log out and back in to finish applying the change.
+
+ 
 
 
 ##Links:
