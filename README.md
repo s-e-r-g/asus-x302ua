@@ -16,8 +16,8 @@ Change
 to
     GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_osi="
 
-# TODO: try this one
-# GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_osi= acpi_backlight=intel"
+// TODO: try this one
+// GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_osi= acpi_backlight=intel"
 
 
 sudo update-grub
