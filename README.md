@@ -4,37 +4,31 @@
 
 <code>sudo echo "options asus_nb_wmi wapf=4" | sudo tee /etc/modprobe.d/asus_nb_wmi.conf</code>
 
-* Enable brightness buttons : handled (icon shown) but brightness doesn't change:
-
-This part enables brightness/wireless hotkey
+* Enable brightness & air buttons:
 
 <pre>
 sudo mcedit /etc/default/grub
-</pre>
 
 Change
     GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 to
     GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_osi="
 
-<pre>
 // TODO: try this one
 // GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_osi= acpi_backlight=intel"
-</pre>
 
-<pre>
 sudo update-grub
 sudo reboot
 </pre>
 
 and this
 
-<code>
+<pre>
 sudo touch /usr/share/X11/xorg.conf.d/20-intel.conf
 sudo nano /usr/share/X11/xorg.conf.d/20-intel.conf
 
 Add the following lines to this file:
-<pre>
+
 Section "Device"
         Identifier  "card0"
         Driver      "intel"
@@ -43,10 +37,10 @@ Section "Device"
 EndSection
 </pre>
 
-</code>
 
 
 
 
 Links:
-https://ubuntuforums.org/showthread.php?t=2181558
+ https://ubuntuforums.org/showthread.php?t=2181558
+ http://askubuntu.com/questions/471847/brightness-fn-key-shortcut-doesnt-work-on-asus-laptop/841903
