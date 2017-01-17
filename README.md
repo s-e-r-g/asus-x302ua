@@ -46,7 +46,8 @@ EndSection
 
 
 * Setting DPI
-Try this one 
+
+Not so good solution with DPI:
 
 https://wbk.one/article/8/dpi-scaling-on-linux-mint
 
